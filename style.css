@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #8367C7
+}
+h1 {
+  color: blue;
+}
+
+p {
+  color: red;
+  font-size: 3em;
+}
+
+#cybertruck {
+  height: 100px;
+  width: 100%;
+  background-color: #C2F8CB;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  transition: 300ms;
+}
+
+#cybertruck:hover{
+
+
+}
+#landingnotstandardcybertruck{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2rem;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #000000;
+
+
+}
+
+
+a{
+  background-color: #B3E9C7;
+  height: 100%;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  font-family: 'The Nautigal', cursive;
+  font-weight: 600;
+  font-size: 24px;
+  transition: 500ms;
+  margin-left: 20px;
+}
+
+a:hover{
+  filter: brightness(1.1);
+
+}
