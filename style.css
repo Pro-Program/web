@@ -28,13 +28,18 @@ p {
 
 
 }
-#landingnotstandardcybertruck{
+:root{
+  --stupidbgcolor:white;
+  --stupid-text-color:black;
+
+}
+#landingnotstandardcybertruck{overflow-x: hidden;
   text-align: center;
   margin-top: 50px;
   font-size: 2rem;
   padding-left: 50px;
   padding-right: 50px;
-  color: #000000;
+  color: var(--stupid-text-color);
 
 
 }
