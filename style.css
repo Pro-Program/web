@@ -3,16 +3,10 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #8367C7
-}
-h1 {
-  color: blue;
+  background-color: var(--stupidbgcolor);
+  
 }
 
-p {
-  color: red;
-  font-size: 3em;
-}
 
 #cybertruck {
   height: 100px;
@@ -33,12 +27,14 @@ p {
   --stupid-text-color:black;
 
 }
-#landingnotstandardcybertruck{overflow-x: hidden;
+#landingnotstandardcybertruck{
+  display:flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   margin-top: 50px;
-  font-size: 2rem;
-  padding-left: 50px;
-  padding-right: 50px;
+  font-size: 1rem;
+  margin: 10%;
   color: var(--stupid-text-color);
 
 
