@@ -4,6 +4,8 @@
 }
 body {
   background-color: var(--stupidbgcolor);
+  transition: 500ms;
+  
   
 }
 
@@ -29,6 +31,7 @@ body {
 }
 #landingnotstandardcybertruck{
   display:flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -36,6 +39,8 @@ body {
   font-size: 1rem;
   margin: 10%;
   color: var(--stupid-text-color);
+  transition: 500ms;
+
 
 
 }
