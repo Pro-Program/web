@@ -96,3 +96,31 @@ footer{
 #button:hover{
   cursor: pointer;
 }
+
+#videostore{
+  height: 100vh;
+  width: 100%;
+  background-color: rebeccapurple;
+}
+
+.imgcontainer{
+  height: 400px;
+  width: 400px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgcontainer img{
+  height: 300px;
+  width: 100%;
+  opacity: 0.5;
+  align-self: flex-start;
+}
+
+.imgcontainer .expensiveitem{
+  height: 100px;
+  width: 100%;
+  background-color: whitesmoke;
+}
