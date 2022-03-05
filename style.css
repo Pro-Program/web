@@ -5,6 +5,8 @@
 body {
   background-color: var(--stupidbgcolor);
   transition: 500ms;
+  display: flex;
+  flex-direction: column;
   
   
 }
@@ -27,6 +29,7 @@ body {
 :root{
   --stupidbgcolor:#023436;
   --stupid-text-color:#00BFB3;
+  --stupidfootercolor: 
 
 }
 #landingnotstandardcybertruck{
@@ -44,9 +47,15 @@ body {
 
 
 }
+#landingtitle{
+  margin-bottom: 50px;
+  text-transform: lowercase;
+  font-family: 'Noto Sans TC', sans-serif;
+  text-decoration: underline;
+  text-align: right;
+}
 
-
-a{
+.navbarkids{
   background-color: #B3E9C7;
   height: 100%;
   width: 100px;
@@ -62,7 +71,28 @@ a{
   margin-left: 20px;
 }
 
-a:hover{
+.navbarkids:hover{
   filter: brightness(1.1);
 
+}
+
+footer{
+  height: 100px;
+  background-color: rgb(39, 39, 39);
+  color:var(--stupid-text-color) ;
+  font-family: 'Noto Sans TC', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  justify-self: baseline;
+}
+
+#button{
+  border: none;
+
+}
+
+#button:hover{
+  cursor: pointer;
 }
