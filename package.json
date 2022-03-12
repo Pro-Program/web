@@ -1,0 +1,26 @@
+{
+  "name": "nodejsproprogram",
+  "version": "1.0.0",
+  "description": "Pro Program Inc First NodeJS Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pro-Program/web.git"
+  },
+  "keywords": [
+    "nodejs",
+    "beginner"
+  ],
+  "author": "Pro Program Inc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pro-Program/web/issues"
+  },
+  "homepage": "https://github.com/Pro-Program/web#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
